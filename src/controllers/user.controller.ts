@@ -1,10 +1,6 @@
 import 'reflect-metadata'
 import { Request, Response } from 'express'
-import {
-  BaseHttpController,
-  controller,
-  httpGet,
-} from 'inversify-express-utils'
+import { controller, httpGet } from 'inversify-express-utils'
 import { BaseHttpResponse } from '../utils/baseHttpResponse'
 import { TYPES } from '../types/containerTypes'
 import { HttpException } from '../errors/http.exception'

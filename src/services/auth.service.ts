@@ -1,7 +1,7 @@
 import { inject, injectable } from 'inversify'
 import { TYPES } from '../types/containerTypes'
 import { UserRepository } from '../repositories/user.repository'
-import { IUser, IUserInput } from '../interfaces/user.interface'
+import { IUserInput } from '../interfaces/user.interface'
 import { HttpException } from '../errors/http.exception'
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
