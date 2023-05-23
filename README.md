@@ -22,7 +22,6 @@ Runs local installation of packages from package.json
 ### `npm run start:dev`
 
 Runs the app in the development mode.\
-Open [http://localhost:8000/](http://localhost:8000/) to view it in your browser.
+[http://localhost:8000/api](http://localhost:8000/api)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Thanks to `nodemon` the server will reload when you make changes.\
